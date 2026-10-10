@@ -16,6 +16,9 @@ sites:
   - name: Sustainable Web Analyzer
     url: https://swa.kreativ-anders.dev
     __dangerous__body_down_if_text_missing: "Sustainable Web Analyzer"
+  - name: Wharf
+    url: https://wharf.kreativ-anders.dev
+    __dangerous__body_down_if_text_missing: "Wharf"
   - name: FinanzGecko
     url: https://finanzgecko.app
     __dangerous__body_down_if_text_missing: "FinanzGecko"
