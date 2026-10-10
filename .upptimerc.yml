@@ -16,13 +16,34 @@ sites:
   - name: Sustainable Web Analyzer
     url: https://swa.kreativ-anders.dev
     __dangerous__body_down_if_text_missing: "Sustainable Web Analyzer"
+  - name: FinanzGecko
+    url: https://finanzgecko.app
+    __dangerous__body_down_if_text_missing: "FinanzGecko"
+  - name: haneder-kraus.de
+    url: https://haneder-kraus.de
+    __dangerous__body_down_if_text_missing: "Haneder"
+  - name: daniel-weiner.de
+    url: https://daniel-weiner.de
+    __dangerous__body_down_if_text_missing: "Daniel Weiner"
+  - name: blowcookie.xyz
+    url: https://blowcookie.xyz
+    __dangerous__body_down_if_text_missing: "BlowCookies"
+  - name: manuel-steinberg.de
+    url: https://manuel-steinberg.de
+    __dangerous__body_down_if_text_missing: "Manuel Steinberg"
+  - name: steinberg.agency
+    url: https://steinberg.agency
+    __dangerous__body_down_if_text_missing: "Steinberg Agency"
+
+workflowSchedule:
+  uptime: "*/15 * * * *"
 
 status-website:
   cname: status.kreativ-anders.dev
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: kreativ-anders Status
   introTitle: "**kreativ-anders** status"
-  introMessage: Live status of our websites and apps, checked every five minutes.
+  introMessage: Live status of our websites and apps, checked every 15 minutes.
   navbar:
     - title: Status
       href: /
