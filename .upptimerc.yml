@@ -24,18 +24,9 @@ sites:
   - name: FinanzGecko
     url: https://finanzgecko.app
     __dangerous__body_down_if_text_missing: "FinanzGecko"
-  - name: haneder-kraus.de
-    url: https://haneder-kraus.de
-    __dangerous__body_down_if_text_missing: "Haneder"
-  - name: daniel-weiner.de
-    url: https://daniel-weiner.de
-    __dangerous__body_down_if_text_missing: "Daniel Weiner"
   - name: blowcookie.xyz
     url: https://blowcookie.xyz
     __dangerous__body_down_if_text_missing: "BlowCookies"
-  - name: manuel-steinberg.de
-    url: https://manuel-steinberg.de
-    __dangerous__body_down_if_text_missing: "Manuel Steinberg"
   - name: steinberg.agency
     url: https://steinberg.agency
     __dangerous__body_down_if_text_missing: "Steinberg Agency"
