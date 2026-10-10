@@ -9,6 +9,7 @@ sites:
     __dangerous__body_down_if_text_missing: "Service-Partner"
   - name: bookmark.cards
     url: https://bookmark.cards
+    icon: https://bookmark.cards/apple-touch-icon.png
     __dangerous__body_down_if_text_missing: "Bookmark.cards"
   - name: News Reader
     url: https://news-reader.app
@@ -18,6 +19,7 @@ sites:
     __dangerous__body_down_if_text_missing: "Sustainable Web Analyzer"
   - name: Wharf
     url: https://wharf.kreativ-anders.dev
+    icon: https://wharf.kreativ-anders.dev/apple-touch-icon.png
     __dangerous__body_down_if_text_missing: "Wharf"
   - name: FinanzGecko
     url: https://finanzgecko.app
