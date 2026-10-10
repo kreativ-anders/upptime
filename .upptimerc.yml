@@ -40,6 +40,14 @@ sites:
     url: https://steinberg.agency
     __dangerous__body_down_if_text_missing: "Steinberg Agency"
 
+# Notification secrets passed to the workflows (SMS via 46elks)
+secrets:
+  - NOTIFICATION_SMS_46ELKS
+  - NOTIFICATION_SMS_46ELKS_API_USERNAME
+  - NOTIFICATION_SMS_46ELKS_API_PASSWORD
+  - NOTIFICATION_SMS_FROM
+  - NOTIFICATION_SMS_TO
+
 workflowSchedule:
   uptime: "*/15 * * * *"
 
