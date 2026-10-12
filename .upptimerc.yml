@@ -47,7 +47,10 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: kreativ-anders Status
   introTitle: "**kreativ-anders** status"
-  introMessage: Live status of our websites and apps, checked every 15 minutes.
+  introMessage: >-
+    Live status of our websites and apps, checked every 15 minutes.
+    Checks run on GitHub servers in the USA, while several of our services are hosted in Germany.
+    Their response times therefore include the round trip across the Atlantic and are higher than what visitors in Europe experience.
   navbar:
     - title: Status
       href: /
