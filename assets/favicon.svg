@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 26 222 126" role="img" aria-label="kreativ-anders Status"><style>
+svg{color-scheme:light dark}
+.frame{fill:#FFA500}
+.text{fill:#141210}
+.ok{fill:#2E7D32}.okl{stroke:#2E7D32}
+.pulse{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.ring{fill:none;stroke-width:2.5;transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-out infinite}
+@keyframes ping{0%{transform:scale(.6);opacity:.9}80%,100%{transform:scale(2.2);opacity:0}}
+@media (prefers-reduced-motion:reduce){.ring{animation:none;opacity:0}}
+@media (prefers-color-scheme:dark){.text{fill:#F6F2EC}.ok{fill:#7BC67E}.okl{stroke:#7BC67E}}
+</style><path class="frame" d="M58.38 30.355h108.485v4.339H58.38zM58.38 30.355h4.34V89.66h-4.34zM58.38 143.179h108.485v4.34H58.38zM162.526 89.66h4.34v57.858h-4.34z"/><path class="pulse okl" d="M10 118H70L80 100L91 132L106 50L119 104L128 72H206"/><circle class="ok" cx="212" cy="72" r="6.5"/><circle class="ring okl" cx="212" cy="72" r="6.5"/></svg>
