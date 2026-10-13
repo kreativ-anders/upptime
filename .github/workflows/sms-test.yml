@@ -1,0 +1,23 @@
+# Temporary: sends one test SMS via 46elks using the stored repository secrets.
+# Remove once the SMS notification setup is confirmed.
+name: SMS Test
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sms-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send test SMS via 46elks
+        env:
+          ELKS_USERNAME: ${{ secrets.NOTIFICATION_SMS_46ELKS_API_USERNAME }}
+          ELKS_PASSWORD: ${{ secrets.NOTIFICATION_SMS_46ELKS_API_PASSWORD }}
+          SMS_FROM: ${{ secrets.NOTIFICATION_SMS_FROM }}
+          SMS_TO: ${{ secrets.NOTIFICATION_SMS_TO }}
+        run: |
+          curl -sS --fail-with-body https://api.46elks.com/a1/sms \
+            -u "$ELKS_USERNAME:$ELKS_PASSWORD" \
+            --data-urlencode "from=$SMS_FROM" \
+            --data-urlencode "to=$SMS_TO" \
+            --data-urlencode "message=Upptime SMS-Test: 46elks funktioniert."
