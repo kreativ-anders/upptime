@@ -48,11 +48,11 @@ workflowSchedule:
 
 status-website:
   cname: status.kreativ-anders.dev
-  # Theme and logo live in assets/ and are copied to the site root on deploy
-  themeUrl: /kreativ-anders.css
-  logoUrl: /logo.svg
-  faviconSvg: /favicon.svg
-  favicon: /favicon.png
+  # Theme and logo live in assets/ and are copied to the site root on deploy (absolute URLs, so the export crawler does not turn them into 404 folders)
+  themeUrl: https://status.kreativ-anders.dev/kreativ-anders.css
+  logoUrl: https://status.kreativ-anders.dev/logo.svg
+  faviconSvg: https://status.kreativ-anders.dev/favicon.svg
+  favicon: https://status.kreativ-anders.dev/favicon.png
   name: Upptime
   introTitle: "**kreativ-anders** status"
   introMessage: >-
