@@ -22,18 +22,20 @@
     "url": "https://bookmark.cards",
     "icon": "https://bookmark.cards/apple-touch-icon.png",
     "slug": "bookmark-cards",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 802,
-    "timeDay": 757,
-    "timeWeek": 800,
-    "timeMonth": 802,
-    "timeYear": 802,
-    "dailyMinutesDown": {}
+    "time": 781,
+    "timeDay": 587,
+    "timeWeek": 752,
+    "timeMonth": 781,
+    "timeYear": 781,
+    "dailyMinutesDown": {
+      "2026-10-21": 0
+    }
   },
   {
     "name": "News Reader",
