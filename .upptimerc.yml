@@ -39,20 +39,13 @@ secrets:
   - NOTIFICATION_SMS_FROM
   - NOTIFICATION_SMS_TO
 
-# Response-time chart on the history pages, in kreativ-anders orange
-graphBackgroundColor: "#ffe4b3"
-graphBorderColor: "#ffa500"
-
 workflowSchedule:
   uptime: "*/15 * * * *"
 
 status-website:
   cname: status.kreativ-anders.dev
-  # Theme and logo live in assets/ and are copied to the site root on deploy (absolute URLs, so the export crawler does not turn them into 404 folders)
-  themeUrl: https://status.kreativ-anders.dev/kreativ-anders.css
-  logoUrl: https://status.kreativ-anders.dev/logo.svg
-  faviconSvg: https://status.kreativ-anders.dev/favicon.svg
-  favicon: https://status.kreativ-anders.dev/favicon.png
+  theme: light
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**kreativ-anders** status"
   introMessage: >-
