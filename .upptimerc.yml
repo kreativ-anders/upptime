@@ -30,6 +30,9 @@ sites:
   - name: steinberg.agency
     url: https://steinberg.agency
     __dangerous__body_down_if_text_missing: "Steinberg Agency"
+  - name: stonka.fyi
+    url: https://stonka.fyi
+    __dangerous__body_down_if_text_missing: "Stonka"
 
 # Notification secrets passed to the workflows (SMS via 46elks)
 secrets:
