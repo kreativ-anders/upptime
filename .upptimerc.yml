@@ -18,8 +18,8 @@ sites:
     url: https://swa.kreativ-anders.dev
     __dangerous__body_down_if_text_missing: "Sustainable Web Analyzer"
   - name: Wharf
-    url: https://wharf.kreativ-anders.dev
-    icon: https://wharf.kreativ-anders.dev/apple-touch-icon.png
+    url: https://getwharf.dev
+    icon: https://getwharf.dev/apple-touch-icon.png
     __dangerous__body_down_if_text_missing: "Wharf"
   - name: FinanzGecko
     url: https://finanzgecko.app
