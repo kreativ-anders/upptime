@@ -164,5 +164,23 @@
     "timeMonth": 659,
     "timeYear": 659,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "rechtzeitig.dev",
+    "url": "https://rechtzeitig.dev",
+    "icon": "https://icons.duckduckgo.com/ip3/rechtzeitig.dev.ico",
+    "slug": "rechtzeitig-dev",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
   }
 ]
