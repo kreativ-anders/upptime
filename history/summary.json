@@ -170,17 +170,19 @@
     "url": "https://rechtzeitig.dev",
     "icon": "https://icons.duckduckgo.com/ip3/rechtzeitig.dev.ico",
     "slug": "rechtzeitig-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 204,
-    "timeDay": 179,
-    "timeWeek": 228,
-    "timeMonth": 204,
-    "timeYear": 204,
-    "dailyMinutesDown": {}
+    "time": 193,
+    "timeDay": 112,
+    "timeWeek": 205,
+    "timeMonth": 193,
+    "timeYear": 193,
+    "dailyMinutesDown": {
+      "2026-11-18": 0
+    }
   }
 ]
